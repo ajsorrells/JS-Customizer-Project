@@ -1,0 +1,60 @@
+h1{
+    background-color: #007bff;
+    color: white;
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    text-align: center;
+    border: none;
+    margin-bottom: 20px;
+}
+
+#quizContainer{
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.quizQuestion{
+    margin-bottom: 20px;
+}
+
+.answerBox{
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin-top: 5px;
+    min-height: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.quizQuestion p{
+    font-weight: bold;
+}
+
+#submitButton{
+    background-color: #007bff;
+    color: white;
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    text-align: center;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#results{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.correct{
+    color: green;
+}
+
+.incorrect{
+    color: red;
+}
